@@ -7,6 +7,7 @@ This directory contains my reflections, core computer science concepts, and exer
 ## 📂 Subfolder Structure
 
 * `README.md` – Course summaries, conceptual takeaways, and error dynamics.
+* `Certificate Of Completion.pdf` – Official verified certificate of completion for this course.
 * `Solutions/` – Individual text files (`.txt`) containing activity and exercise answers for each lesson.
 
 ---
