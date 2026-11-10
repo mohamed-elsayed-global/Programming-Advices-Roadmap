@@ -23,7 +23,8 @@ This repository organizes my key takeaways, foundational insights, and completed
 | **09** | **09 - Programming Foundations - Level 2** | ⏳ Pending | *Coming Soon* |
 | **10** | **10 - OOP as it Should Be (Concepts)** | ⏳ Pending | *Coming Soon* |
 | **11** | **11 - OOP as it Should Be (Applications)** | ⏳ Pending | *Coming Soon* |
-| **12** | **13 - Algorithms & Problem Solving Level 5** | ⏳ Pending | *Coming Soon* |
+| **12** | **12 - Data Structures - Level 1** | ⏳ Pending | *Coming Soon* |
+| **13** | **13 - Algorithms & Problem Solving Level 5** | ⏳ Pending | *Coming Soon* |
 
 ---
 
