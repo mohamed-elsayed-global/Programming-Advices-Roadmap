@@ -40,7 +40,7 @@ This directory contains my reflections, core computer science concepts, and exer
 
 ### 3. Binary & ASCII Rules
 * Standard ASCII characters fit within **1 Byte (8 bits) or less**.
-* All powers of `2` (`1`, `2`, `4`, `8`...) are even numbers except for `1` (\(`2`^{`0`}\)), which occupies the rightmost position in binary. When a binary number ends in `0`, that `1` is excluded from the sum, guaranteeing the total value is even.
+* All powers of `2` (`1`, `2`, `4`, `8`...) are even numbers except for `1` (`2`^`0`), which occupies the rightmost position in binary. When a binary number ends in `0`, that `1` is excluded from the sum, guaranteeing the total value is even.
 * All binary numbers are **composite (non-prime)**, except for `2`.
 
 ---
