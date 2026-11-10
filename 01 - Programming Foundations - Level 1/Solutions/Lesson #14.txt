@@ -1,0 +1,31 @@
+1️⃣ Give three reasons to start with C++.
+1. It forces you to master core concepts and memory control (being closer to the hardware).
+
+2. It supports both procedural and object-oriented programming paradigms, providing a broader mental model.
+
+3. Learning it well makes picking up any other programming language quick and easy (< 1 month).
+
+2️⃣ Name five domains where C++ is used.
+1. Operating systems (e.g., Windows, macOS)
+
+2. Game engines and 3D graphics software (e.g., Maya)
+
+3. High-performance enterprise and banking software (e.g., Bloomberg stack, Finacle backend)
+
+4. Web browsers and databases (e.g., SQL, Google Chrome)
+
+5. Embedded systems, robotics, and automotive/medical devices
+
+3️⃣ What paradigms does C++ support, and why does that matter when compared to Java?
+C++ supports both procedural and object-oriented programming (OOP) paradigms. This matters compared to Java because Java is strictly OOP-only, whereas starting with C++ exposes you to multiple styles of programming.
+
+4️⃣ Why do the slides say “Learn C++ not C” for beginners?
+While both have similar syntax and are mid-level languages close to the hardware, C is strictly procedural, whereas C++ is a superset that supports both procedural and OOP. Since the effort to learn them is similar, C++ gives you broader power.
+
+5️⃣ Explain two performance reasons C++ is chosen for infrastructure (libraries / cloud / banking).
+1. Full memory control: It lacks automatic garbage collection overhead, allowing developers to optimize resource allocation.
+
+2. Concurrency and multithreading support: It handles heavy parallel execution and high-speed computation efficiently.
+
+6️⃣ True or False: “C++ is outdated.” Explain your answer.
+False. While it is an established language, it is far from outdated; it remains widely used and essential in modern high-performance systems, game engines, operating systems, and financial infrastructure where raw speed and hardware control are critical.

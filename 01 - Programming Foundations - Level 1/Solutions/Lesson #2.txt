@@ -1,0 +1,36 @@
+1️⃣ Computer Architecture Block Diagram Structure
+Based on standard computer organization:
+1. Input Unit: Feeds raw data and commands into the computer (e.g., Keyboard, Mouse).
+
+2. CPU (Central Processing Unit): The brain of the computer, containing:
+- Control Unit (CU): Directs the flow of data and instructions.
+- Arithmetic and Logic Unit (ALU): Performs mathematical calculations and logical comparisons.
+- Cache & Registers: Ultra-fast, temporary storage inside the CPU.
+
+3. Primary Memory (RAM, ROM): Fast, temporary storage that holds data currently in use.
+4. Secondary Storage (SSD/HDD): Permanent storage for files, programs, and the operating system.
+5. Output Unit: Presents processed results to the user (e.g., Monitor/LCD).
+
+2️⃣ Scenario Mapping: "Load image from SSD → Process Filter → Display on Monitor"
+Step 0: System Boot & Initialization (Role of ROM)
+Units Involved: ROM (Read-Only Memory) to CPU to RAM (Random Access Memory).
+Data Residence: When the computer starts, the CPU executes the permanent boot instructions stored in ROM (BIOS/UEFI). The ROM firmware runs the POST (Power-On Self-Test), initializes hardware components, and loads the operating system kernel from the SSD into RAM so the system becomes operational.
+
+Step 1: Load image from SSD
+Units Involved: Secondary Storage (SSD) to Primary Memory (RAM) via Control Unit (CU) and Bus.
+Data Residence: The image file resides in Secondary Storage (SSD). Upon the request of the user, the CU fetches it and loads it into Primary Memory (RAM) so the CPU can access it at working speeds.
+
+Step 2: Process Filter
+Units Involved: CPU (CU, ALU, Cache/Registers) interacting with RAM.
+Data Residence: Portions of the image data are loaded from RAM into the CPU's ultra-fast Cache and Registers. The Control Unit directs the traffic, and the Arithmetic and Logic Unit (ALU) executes the mathematical filter calculations pixel by pixel.
+
+Step 3: Display on Monitor
+Units Involved: Primary Memory / VRAM to Output Unit (Monitor) via I/O Interface.
+Data Residence: The processed image data is sent from the RAM via the I/O interface (PCIe) to the graphics memory (VRAM) located in the graphics card, and then transmitted via a display interface (like HDMI or DisplayPort) to the Output Unit (Monitor) for the user to view.
+
+3️⃣ 8 GB RAM: 64-bit vs. 32-bit Operating System
+Why a 64-bit OS is Recommended:
+A 64-bit OS supports a massive memory address space, allowing a PC to fully recognize, manage, and utilize all 8 GB of RAM (and beyond) smoothly for multitasking and high-performance apps. This is because a 64-bit architecture has an addressing capacity of 2^64 addresses (16 Exabytes), unlike a 32-bit architecture, which is capped or limited at 2^32 addresses (4 GB).
+
+What Happens if a 32-bit OS is Installed:
+A 32-bit OS is limited to a maximum of 4 GB of addressable memory. As a result, the operating system will only recognize and use at most half of the 8 GB RAM, leaving the remaining half completely wasted. Additionally, the user will be restricted to running only 32-bit compatible application software.

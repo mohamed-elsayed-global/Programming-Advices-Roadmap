@@ -1,0 +1,29 @@
+1️⃣ What is a Programming Language?
+A tool used to express instructions that direct or instruct a computer to perform a task.
+
+2️⃣ What is Code?
+The individual instructions written in a programming language that are given to a computer.
+
+3️⃣ What is Source Code?
+The human-readable instructions written by a programmer in a high-level language or assembly language.
+
+4️⃣ What is Object Code?
+The translated, low-level machine code form that is generated from source code and can be directly executed by the computer.
+
+5️⃣ Why do we need Compilers or Interpreters?
+We need them to act as translators that bridge the gap between what humans write (source code) and what the CPU can actually run (machine code).
+
+6️⃣ When is a language considered Fast?
+When it sits close to the machine code level, is compiled ahead-of-time with strong optimizations, and has minimal runtime overhead.
+
+7️⃣ When is a language considered Slow?
+When it involves heavier runtime interpretation or JIT (Just-In-Time) processing, frequent dynamic checks, or deep layers of abstraction.
+
+8️⃣ What is a High-Level Language?
+A language with human-readable, portable syntax that is situated far from the hardware, making it much easier for humans to write and maintain.
+
+9️⃣ What is a Low-Level Language?
+A language that sits very close to the hardware (such as binary or assembly), offering high execution speed but very low readability.
+
+🔟 When do we consider a language human-readable?
+When its syntax uses clear, intuitive words and structures (like high-level languages) instead of cryptic hardware mnemonics or raw binary strings of 0s and 1s.

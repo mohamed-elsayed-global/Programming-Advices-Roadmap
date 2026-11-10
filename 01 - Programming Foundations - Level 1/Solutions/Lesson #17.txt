@@ -1,0 +1,31 @@
+1️⃣ What is a Variable, and why do we need it?
+A variable is a named container in memory that holds a data value you can read and change (mutable) during program execution. We need it to store and reuse information while a program runs.
+
+2️⃣ What is a Constant, and why do we need it?
+A constant is a container for storing data that becomes read-only after initialization (immutable). We need it to store fixed values (like mathematical constants such as PI) that should not be accidentally modified while the program runs.
+
+3️⃣ What is a Memory Cell?
+A memory cell is the physical slot in RAM that actually stores the bits of data.
+
+4️⃣ What is an Identifier?
+An identifier is a human-friendly name (such as Age) given to a variable or constant to represent its memory location.
+
+5️⃣ What is a Memory Address, and what is its relation to location in memory?
+A memory address is the precise, unique coordinate or location where a memory cell lives in RAM.
+
+6️⃣ Which numbering system is used to represent memory addresses?
+The hexadecimal numbering system (e.g., 0x7fff...).
+
+7️⃣ Mention the primary types of variables.
+Integer (Int), Float/Double, String, and Boolean.
+
+8️⃣ What are the number types, and give examples for each.
+
+ Integer (Int): Whole numbers. Example: 45 or -3.
+ Float / Double: Numbers with fractions or decimals. Example: 3.14.
+
+9️⃣ What is a String, and give an example of it.
+A string is a data type used to store text characters. Example: "Mohammed".
+
+🔟 What is a Boolean, and give an example of it.
+A Boolean is a data type that represents a truth value, holding either true or false (1 or 0). For Example: True, False.

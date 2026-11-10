@@ -1,0 +1,27 @@
+1️⃣ What is a Network?
+A network is a group of connected computers and devices that can communicate and share resources (such as files, printers, and internet access).
+
+2️⃣ Why do we need a Network?
+We need networks to share files, printers, and internet access, communicate via messages, calls, and streaming, control smart devices (like TVs and lights) from a phone, and collaborate at school, work, or across locations.
+
+3️⃣ What is the difference between LAN and WAN?
+LAN (Local Area Network): Connects a nearby group of devices within a limited area, such as a home, classroom, office building, or hospital.
+WAN (Wide Area Network): Connects many LANs across cities, countries, or the entire world. The internet is the largest example of a WAN.
+
+4️⃣ How do computers communicate together on a network?
+Computers communicate over wired or wireless connections by following agreed-upon rules (protocols), using hardware like switches to interconnect devices inside a LAN and routers to connect the LAN to outside networks like the internet.
+
+5️⃣ What is Ethernet?
+Ethernet is a wired connection method and set of rules for sending data securely and efficiently through physical cables (typically via a switch or router).
+
+6️⃣ What is Wireless?
+Wireless is a method of sending data through the air using radio signals instead of physical cables.
+
+7️⃣ What is a Protocol?
+A protocol is a standard set of rules that defines how devices format, send, and receive data so that everything understands each other—acting as the common language devices follow.
+
+8️⃣ What is Wi-Fi?
+Wi-Fi is a popular wireless method used to connect devices to a network using radio-based Local Area Network (LAN) rules.
+
+9️⃣ Wi-Fi stands for what?
+Wireless Fidelity.

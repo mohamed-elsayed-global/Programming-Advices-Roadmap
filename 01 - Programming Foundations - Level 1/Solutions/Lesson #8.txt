@@ -1,0 +1,51 @@
+1️⃣ Octal to Decimal (Expand by powers of 8)
+
+a) 100(8)
+(1 * 8^2) + (0 * 8^1) + (0 * 8^0)
+= (1 * 64) + 0 + 0 = 64(10)
+
+b) 512(8)
+(5 * 8^2) + (1 * 8^1) + (2 * 8^0)
+= (5 * 64) + (1 * 8) + (2 * 1)
+= 320 + 8 + 2 = 330(10)
+
+2️⃣ Decimal to Octal (Division by 8 with remainders)
+
+a) 64(10)
+64 \ 8 = 8, remainder 0
+8 \ 8 = 1, remainder 0
+1 \ 8 = 0, remainder 1
+Result (bottom-to-top): 100(8)
+
+b) 330(10)
+330 \ 8 = 41, remainder 2
+41 \ 8 = 5, remainder 1
+5 \ 8 = 0, remainder 5
+Result (bottom-to-top): 512(8)
+
+3️⃣ Octal to Binary (Direct 3-bit mapping)
+
+a) 100(8)
+1 = 001₂
+0 = 000₂
+0 = 000₂
+Result: 001 000 000₂
+
+b) 512(8)
+5 = 101₂
+1 = 001₂
+2 = 010₂
+Result: 101 001 010₂
+
+4️⃣ Binary to Octal (Group by 3 from the right)
+
+a) 0100 0000₂
+Group from right: 01 | 000 | 000
+Pad left group to 3 bits: 001 | 000 | 000
+Map to octal digits: 1 | 0 | 0
+Result: 100(8)
+
+b) 0001 0100 1010₂
+Group from right by 3: 000 | 101 | 001 | 010
+Map to octal digits: 0 | 5 | 1 | 2
+Result: 512(8)

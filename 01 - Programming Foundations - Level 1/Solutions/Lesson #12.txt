@@ -1,0 +1,32 @@
+1️⃣ What is a Compiler, and how does it work?
+A compiler is an ahead-of-time translator software that scans an entire high-level source code program. If it finds build errors, it stops and reports them; if there are no errors, it translates the whole program into object code.
+
+2️⃣ What is an Interpreter, and how does it work?
+An interpreter is translator software that reads, translates, and executes high-level source code instruction by instruction, line by line, at runtime. If an error occurs, it stops at that specific line.
+
+3️⃣ What is an Assembler?
+An assembler is a program that translates low-level assembly language into machine code.
+
+4️⃣ What is a Linker?
+A linker is a tool that combines object code with necessary libraries to create a standalone executable file (.exe).
+
+5️⃣ What is an .exe file?
+An executable file stored on a disk (like an HDD or SSD) that contains the fully translated machine code ready to be run by the computer.
+
+6️⃣ What is a Loader?
+A loader is a runtime system utility that loads the .exe file from disk into the computer's memory (RAM) and starts its execution.
+
+7️⃣ Which is faster — Compiled or Interpreted languages?
+Compiled languages are much faster than Interpreted languages because their code is translated to machine code in advance, not during execution..
+
+8️⃣ Does an Interpreter produce an .exe file?
+No, an interpreter does not generate or store an .exe file.
+
+9️⃣ Does an Interpreter save machine code?
+No, it executes directly in memory without saving machine code on disk.
+
+🔟 Does a Compiler produce an .exe file?
+Yes (via the linker step).
+
+1️⃣1️⃣ Does a Compiler save machine code?
+Yes (as object code and within the saved .exe file on disk).

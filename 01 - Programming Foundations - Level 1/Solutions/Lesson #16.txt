@@ -1,0 +1,146 @@
+🔹 Set A:-
+1️⃣ 6 ÷ 3 + 4 × 2
+Division & Multiplication first (left to right):
+6 \ 3 = 2
+4 * 2 = 8
+Expression becomes: 2 + 8
+Final answer: 10
+
+2️⃣ 6 × 4 − 12 ÷ 3 − 8
+Multiplication & Division first:
+6 * 4 = 24
+12 \ 3 = 4
+Expression becomes: 24 - 4 - 8
+Subtract left to right:
+24 - 4 = 20
+20 - 8 = 12
+Final answer: 12
+
+3️⃣ 4 × 4 − 3 × 3 − 16 ÷ 4
+Multiplication & Division first:
+4 * 4 = 16
+3 * 3 = 9
+16 \ 4 = 4
+Expression becomes: 16 - 9 - 4
+Subtract left to right:
+16 - 9 = 7
+7 - 4 = 3
+Final answer: 3
+
+4️⃣ 20 − (3 × 23 − 5)
+Inside parentheses — Multiply first: 23 * 3 = 69
+Subtract: 69 - 5 = 64
+Outer expression: 20 - 64 = -44
+Final answer: -44
+
+5️⃣ (5 + 2)² − 9 × 3 + 2³
+Parentheses first: (5 + 2) = 7
+Exponents next: 7^2 = 49 and 2^3 = 8
+Expression becomes: 49 - 9 * 3 + 8
+Multiply: 9 * 3 = 27
+Add and subtract left to right:
+49 - 27 = 22
+22 + 8 = 30
+Final answer: 30
+
+6️⃣ (7 − √9) × (4² − 3 + 1) (assuming 42 is 4^2)
+First parentheses: √9 = 3 ==>> (7 - 3) = 4
+Second parentheses: 42 - 3 + 1 = 40
+Multiply results: 4 * 40
+Final answer: 160
+
+🔹 Set B:-
+1️⃣ 5 × (2² + 3) + (2³)²
+First set of parentheses: 2^2 + 3 = 4 + 3 = 7
+Second set of parentheses: 2^3 = 8 ==>> 8^2 = 64
+Multiply first term: 5 * 7 = 35
+Add: 35 + 64
+Final answer: 99
+
+2️⃣ 6 × 2 + 5 × 1 + 4 ÷ 2 − 1
+Multiplication & Division first:
+6 * 2 = 12
+5 * 1 = 5
+4 \ 2 = 2
+Expression becomes: 12 + 5 + 2 - 1
+Add and subtract left to right:
+12 + 5 = 17 ==>> 17 + 2 = 19 ==>> 19 - 1 = 18
+Final answer: 18
+
+3️⃣ 1 + (2 × (4 − 3 + 1) + 7) − 2
+Innermost parentheses: 4 - 3 + 1 = 1 + 1 = 2
+Outer parentheses: 2 * 2 + 7 = 4 + 7 = 11
+Expression becomes: 1 + 11 - 2
+Add and subtract left to right: 12 - 2
+Final answer: 10
+
+4️⃣ 10 + 6 × (3 − 2) × 8 ÷ 24 − 1
+Parentheses first: (3 - 2) = 1
+Expression becomes: 10 + 6 * 1 * 8 \ 24 - 1
+Multiply & Divide left to right:
+6 * 1 = 6
+6 * 8 = 48
+48 \ 24 = 2
+Expression becomes: 10 + 2 - 1
+Final answer: 11
+
+5️⃣ (20 − 18)³ ÷ 8 × 3 − 1
+Parentheses first: (20 - 18) = 2
+Exponent: 2^3 = 8
+Division & Multiplication left to right:
+8 \ 8 = 1
+1 * 3 = 3
+Expression becomes: 3 - 1
+Final answer: 2
+
+6️⃣ (2 + 1 − 3 + 1 + 4)² − 2 × 4
+Inside parentheses left to right:
+2 + 1 = 3 ==>> 3 - 3 = 0 ==>> 0 + 1 = 1 ==>> 1 + 4 = 5
+Exponent: 5^2 = 25
+Multiplication: 2 * 4 = 8
+Subtract: 25 - 8
+Final answer: 17
+
+🔹 Set C:-
+1️⃣ (5 > 6 and 7=7) OR (1 Or 0)
+First parentheses: (5 > 6 and 7=7) ==>> (False and True) ==>> False
+Second parentheses: (1 Or 0) ==>> (True Or False) ==>> True
+Full expression: False OR True
+Result: True
+
+2️⃣ NOT(5 > 6 and 7=7) OR (1 Or 0)
+Inside NOT(...): (5 > 6 and 7=7) ==>> (False and True) ==>> False
+Apply NOT: NOT(False) ==>> True
+Second parentheses: (1 Or 0) ==>> True
+Full expression: True OR True
+Result: True
+
+3️⃣ NOT(5 > 6 and 7=7) OR NOT (1 Or 0)
+Left side: NOT(False and True) ==>> NOT(False) ==>> True
+Right side: NOT(True Or False) ==>> NOT(True) ==>> False
+Full expression: True OR False
+Result: True
+
+4️⃣ NOT(5 > 6 OR 7=7) AND NOT (1 Or 0)
+Left side: 5 > 6 OR 7=7 ==>> False OR True ==>> True
+Apply NOT: NOT(True) ==>> False
+Right side: 1 Or 0 ==>> True
+Apply NOT: NOT(True) ==>> False
+Full expression: False AND False
+Result: False
+
+5️⃣ ((5>6 AND 7<=8) OR (8>1 and 4<=3)) AND True
+First pair: 5>6 AND 7<=8 ==>> False AND True ==>> False
+Second pair: 8>1 and 4<=3 ==>> True and False ==>> False
+Combine inside large parentheses: False OR False ==>> False
+Full expression: False AND True
+Result: False
+
+6️⃣ ( (5>6 AND NOT(7<=8)) AND (8>1 OR 4<=3) ) OR True
+Since the entire grouped expression is connected to OR True at the end, any Boolean expression OR True automatically evaluates to True.
+Checking step-by-step:
+Left side: 5>6 AND NOT(7<=8) ==>> False AND NOT(True) ==>> False AND False ==>> False
+Right side: 8>1 OR 4<=3 ==>> True OR False ==>> True
+Combine inside: False AND True ==>> False
+Outermost evaluation: False OR True
+Result: True

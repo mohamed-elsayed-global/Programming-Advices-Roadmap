@@ -1,0 +1,26 @@
+1️⃣ Data Unit Conversions
+Using the binary-scaled standard (1 KB = 1,024 Bytes):
+8 KB = 8 * 1,024 = 8,192 Bytes
+2 MB = 2 * 1,024 * 1,024 = 2,097,152 Bytes
+3 GB = 3 * 1,024 * 1,024 * 1,024 = 3,221,225,472
+
+2️⃣ Storage Hierarchy by Access Speed
+Ordered from fastest to slowest access:
+1. Registers (Fastest)
+2. L1 Cache
+3. RAM (Primary Memory)
+4. SSD (Slowest)
+
+Why: Access speed is inversely proportional to physical distance from the CPU core. Registers live directly inside the CPU for instant data manipulation. L1 cache sits on the processor chip for ultra-fast access to active instructions. RAM resides on external chips on the motherboard, requiring a bus trip. Secondary storage (SSD) is located off-chip on flash memory chips, involving significantly higher latency.
+
+3️⃣ Limitations of a 32-Bit OS on 64-Bit Hardware with 8 GB RAM
+Installing a 32-bit operating system on this configuration creates two major bottlenecks:
+
+1. The ~4 GB RAM Ceiling: A 32-bit operating system uses a 32-bit address space (2^32 = 4,294,967,296 Bytes, or roughly 4 GB). Even though CPU architecture and physical sticks total 8 GB, the OS cannot map, address, or utilize more than ~4 GB, effectively wasting half of your physical RAM.
+
+2. Software Architecture Restriction: The user is restricted to running 32-bit operating systems and application software. He loses the ability to run 64-bit applications, execute wider 64-bit data instructions per cycle, or leverage large memory-mapped files.
+
+4️⃣ CPU Frequency (3.6 GHz) and Cycle Mechanics
+Cycles per second: 3.6 billion cycles per second (3,600,000,000 Hz).
+
+What happens during each cycle: Billions of microscopic transistors act as binary switches, opening and closing (blocking or allowing electrical current to represent 0 and 1). At a high level, these switches coordinate the fetch-decode-execute cycle, moving tiny electrical pulses to fetch instructions from memory, decode what operation needs to happen, and execute calculations or data transfers.

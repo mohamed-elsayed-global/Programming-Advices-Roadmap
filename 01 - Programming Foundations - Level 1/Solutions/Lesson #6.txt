@@ -1,0 +1,12 @@
+1️⃣ Bit: The smallest unit of digital information, representing either a 0 or a 1 (eighth a byte).
+2️⃣ Crumb: A group of 2 bits (quarter a byte).
+3️⃣ Nibble: A group of 4 bits (half a byte).
+4️⃣ Byte: A standard unit of digital information composed of 8 bits.
+5️⃣ Bits in a byte: 8 bits.
+6️⃣ Crumbs in a byte: 4 crumbs (since each crumb is 2 bits).
+7️⃣ Nibbles in a byte: 2 nibbles (an upper and a lower nibble).
+8️⃣ Crumbs in a nibble: 2 crumbs (since a nibble is 4 bits and a crumb is 2 bits).
+9️⃣ Lower nibble: The rightmost 4 bits of a byte (b3, b2, b1, b0), which map to the second hexadecimal digit (least significant half).
+🔟 Upper nibble: The leftmost 4 bits of a byte (b7, b6, b5, b4,), which map to the first hexadecimal digit (most significant half).
+1️⃣1️⃣ LSB (Least Significant Bit): The rightmost bit of the byte (b0). We call it "least significant" because it carries the smallest weight (2^0), contributing the least to the numeric value of the binary number.
+1️⃣2️⃣ MSB (Most Significant Bit): The leftmost bit of the byte (b7). We call it "most significant" because it carries the largest weight (2^7), contributing the most to the numeric value of the binary number.

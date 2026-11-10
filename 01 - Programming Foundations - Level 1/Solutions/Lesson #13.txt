@@ -1,0 +1,38 @@
+1️⃣ Why is asking “Which programming language is better?” an incomplete question? (Using the color or car analogy)
+Asking which language is better is incomplete because context is everything. Just like color means nothing without context—As an example for me, preferring a black suit while disliking black cars—or how asking for the "best car" depends entirely on whether I need speed (a Lamborghini), off-road driving (a 4x4), heavy loads (a truck), or fuel efficiency (a compact car), a programming language can only be evaluated based on where and how it is used. There is no single "best" language overall.
+
+2️⃣ What is the correct answer to “Which language is better?” What does the phrase “It depends on your needs” really mean in programming?
+The correct answer is always “It depends on your needs.” In programming, this means choosing a language based on your use case + ecosystem—such as the specific domain, performance requirements, team skills, available libraries, and hosting constraints.
+
+3️⃣ Why do many programming languages exist?
+Many languages exist because different problems require different trade-offs. Three major factors that make languages suitable for different situations are:
+
+- Speed and Performance: How fast the code executes and how close it is to the hardware.
+
+- Safety and Tooling: The level of type checking, error prevention, and developer tools available.
+
+- Ecosystem: The availability of pre-built libraries, frameworks, and community support for specific domains (like web dev, AI, or embedded systems).
+
+4️⃣ What’s the difference between programming and a programming language? (Using the carpentry analogy)
+Just like a carpenter uses tools like a hammer, saw, and screwdriver, a programmer uses a programming language as a tool to write instructions. However, knowing how to use tools for ten minutes doesn't make someone a carpenter; building furniture requires the craft, skill, practice, creativity, and structural design. Similarly, a programming language is just the tool, while programming itself is the craft of designing clear, logical solutions.
+
+5️⃣ Why should you focus on learning programming fundamentals before languages? What part is the “craft,” and what part is just “tools”?
+I should focus on fundamentals because syntax (the tools) can be learned in a very short time, while 95% of programming—such as problem-solving, data structures, algorithms, architecture, debugging, and system design—makes up the actual craft. Fundamentals transfer across any language I will ever use.
+
+6️⃣ Why is it not a good idea to start with modern languages? (Using the driving analogy)
+Starting with modern languages full of ready-made functions and automatic tools gives me the false illusion of being a skilled programmer, much like learning to drive using park assist, cameras, and sensors. Just as a driver must first learn manual parking using mirrors and judgment to truly master control, a programmer must learn foundational concepts from the ground up without relying on heavy abstractions as a crutch.
+
+7️⃣ Why is C++ recommended as the first language to learn?
+C++ is recommeded because:
+
+1. It builds rock-solid programming fundamentals and teaches me core concepts.
+
+2. It shows me how computers truly work under the hood regarding memory, logic, and performance.
+
+3. It trains my mind to think like a real engineer, giving me the key to pick up any other modern language quickly and easily.
+
+8️⃣ What does “C++ = Salary ++” mean?
+It means that learning C++ is a powerful long-term investment in my career. Even if my daily job doesn't require writing C++, the deep mental training, hardware understanding, and problem-solving mindset it builds make me a much more valuable and adaptable engineer across any technical domain.
+
+9️⃣ What makes a good programmer? Is it the language they use, or something deeper?
+A good programmer is defined by something much deeper than their choice of language: their ability to think clearly, break down large problems logically, manage trade-offs, and master the craft of problem-solving rather than defending tool preferences or falling for fanboy wars.
