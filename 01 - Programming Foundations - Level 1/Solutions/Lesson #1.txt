@@ -1,0 +1,17 @@
+Applying the DIKW Pyramid
+
+1️⃣ Data (البيانات الخام)
+Raw Numbers: {45, 40, 50, 45, 50}
+Context: Daily transit costs recorded over one week (in EGP):
+Sun: 45 | Mon: 40 | Tue: 50 | Wed: 45 | Thu: 50
+
+2️⃣ Information (المعلومات)
+Context & Summary: Total weekly commute cost = 230 EGP.
+Analysis: Peak-hour trips (8:00–9:00 AM) cost 50 EGP due to extra transfers to avoid traffic. Off-peak single routes cost 35–40 EGP.
+
+3️⃣ Knowledge (المعرفة)
+Pattern Identified: Peak-hour departures consistently increase commute costs by 10–15 EGP per day and add physical fatigue due to transfers.
+
+4️⃣ Wisdom (الحكمة / الإجراء الحكيم)
+Action: Shift morning departure 25 minutes earlier to catch the single direct transit line before peak congestion starts.
+Impact: Saves 50–60 EGP weekly and reduces travel stress.
