@@ -4,6 +4,13 @@ This directory contains my algorithmic analyses, step-by-step logic designs, flo
 
 ---
 
+## 📌 Daily Practice Declaration
+
+> **Dedicated Execution Statement:**  
+> I hereby declare that I successfully tackled and solved **10 problems every single day** throughout this course, giving each problem my complete, undivided focus. Furthermore, I ensure that all the challenging problems highlighted below have been **solved partially at least** through rigorous logical breakdown, flowchart design, and step-by-step algorithmic tracing.
+
+---
+
 ## 📂 Subfolder Structure
 
 * `README.md` – Course analysis, difficulty progression, Course 1 conceptual mappings, and deep-dive reflections on challenging problems.
@@ -56,7 +63,7 @@ The 50 problems are carefully engineered with a smooth, deliberate **gradation i
 
 ## 🔥 Deep-Dive: Most Challenging Problems & Personal Reflections
 
-While every problem reinforced structured thinking, **8 specific problems** stood out as the most intellectually demanding, requiring careful flowchart tracing, edge-case handling, and state management:
+While every problem reinforced structured thinking, **8 specific problems** stood out as the most intellectually demanding, requiring careful flowchart tracing, edge-case handling, and state management (all of which were thoroughly explored and solved at least partially during my daily drills):
 
 ### 1. Problem `#27`: Print Numbers from N to 1
 * **The Challenge:** Reversing the standard counting direction required shifting from an upward counter (`Counter = Counter + 1`) to a downward state mutation (`Counter = N`, `Counter = Counter - 1`).
@@ -71,8 +78,8 @@ While every problem reinforced structured thinking, **8 specific problems** stoo
 * **Key Breakthrough:** Reinforcing the concept that `0` is the additive identity for summation accumulators and understanding the two valid algorithmic approaches (step-by-1 with modulo check vs. step-by-2).
 
 ### 4. Problem `#30`: Factorial of N!
-* **The Challenge:** Switching from an **additive accumulator** (`Sum = 0`) to a **multiplicative accumulator** (`Factorial = 1`), alongside handling negative inputs and the edge case of 0! = 1.
-* **Key Breakthrough:** Initializing `Factorial = 0` would collapse the entire multiplication to zero. Combined with a validation loop for N < 0, this taught me how mathematical identities dictate variable initialization.
+* **The Challenge:** Switching from an **additive accumulator** (`Sum = 0`) to a **multiplicative accumulator** (`Factorial = 1`), alongside handling negative inputs and the edge case of `0! = 1`, and guarding against subtle off-by-one loop termination bugs.
+* **Key Breakthrough:** Initializing `Factorial = 0` would collapse the entire multiplication to zero —and similarly, setting the downward loop condition to include `Counter == 0` instead of stopping at `1` would multiply the accumulated result (e.g., `6! = 720`) by `0`, wiping out the entire calculation (`720 * 0 = 0`). Combined with a validation loop for `N < 0`, this proved how critical **logical sequence (`Sequence`)** and strict boundary conditions are and taught me how mathematical identities dictate variable initialization.
 
 ### 5. Problem `#32`: Power of M (N^M)
 * **The Challenge:** Computing exponents iteratively without relying on built-in math functions, especially handling the universal edge case where M = 0 (where any number raised to 0 equals 1).
@@ -163,6 +170,9 @@ Every algorithm in this course relies directly on the theoretical computer scien
 
 ### 3. Computer Science Foundations Are Practical
 * Concepts from **Course 01**—such as ASCII character codes (`65`–`90`), binary parity (`mod 2`), prime properties, and positional remainder extraction—are not just academic theory; they are the exact building blocks of everyday algorithms.
+
+### 4. Program Tracing & Memory State Visualization
+* One of the most valuable habits I gained from Dr. Mohammed Abu-Hadhoud in this course is manual **program tracing (`Trace`)**—stepping through the flowchart instruction-by-instruction while tracking how every variable is allocated, updated, and overwritten in memory from start to finish. Tracing catches subtle logical flaws (like off-by-one boundaries or uninitialized accumulators) long before running any code.
 
 ---
 
