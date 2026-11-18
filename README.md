@@ -13,7 +13,7 @@ This repository organizes my key takeaways, foundational insights, and completed
 | Level | Course Title | Status | Folder Link |
 | :---: | :--- | :---: | :--- |
 | **01** | **01 - Programming Foundations - Level 1** | ✅ Completed | [View Notes & Solutions](./01%20-%20Programming%20Foundations%20-%20Level%201/) |
-| **02** | **02 - Algorithms & Problem-Solving Level 1** | ⏳ Pending | *Coming Soon* |
+| **02** | **02 - Algorithms & Problem-Solving Level 1** | ✅ Completed | [View Notes & Solutions](./02%20-%20Algorithms%20%26%20Problem-Solving%20Level%201/) |
 | **03** | **03 - Introduction to Programming with C++ – Level 1** | ⏳ Pending | *Coming Soon* |
 | **04** | **04 - Algorithms & Problem-Solving – Level 1 (Solutions)** | ⏳ Pending | *Coming Soon* |
 | **05** | **05 - Algorithms & Problem-Solving – Level 2** | ⏳ Pending | *Coming Soon* |
